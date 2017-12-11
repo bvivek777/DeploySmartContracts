@@ -136,7 +136,13 @@ if(fs.existsSync(file)){
           });         
          } catch(e) {
            console.log(e);
-           //throw JSON.stringify(output);
+           if(output.errors)
+            throw JSON.stringify(output);
+          else{
+             fs.writeFile('abi.txt',JSON.stringify(output),()=>{
+               console.log('wrote '+contractName||":Ledger");
+             });
+           }
          } 
       }
     }
