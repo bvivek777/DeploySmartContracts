@@ -1,0 +1,28 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "Deploy smart contracts if they are in one file",
+  "main": "deployContracts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvivek777/DeploySmartContracts.git"
+  },
+  "keywords": [
+    "smart",
+    "contracts",
+    "deploy"
+  ],
+  "author": "Vivek Bengre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvivek777/DeploySmartContracts/issues"
+  },
+  "homepage": "https://github.com/bvivek777/DeploySmartContracts#readme",
+  "dependencies": {
+    "solc": "^0.4.17",
+    "web3": "^0.18.4"
+  }
+}

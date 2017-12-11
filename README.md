@@ -1,0 +1,1 @@
+simple way of deploying smart cert contract
