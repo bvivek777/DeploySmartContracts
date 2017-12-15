@@ -30,7 +30,7 @@ if(args.length > 2){
           console.log("custom host provided ... ");
           web3 = new Web3(new Web3.providers.HttpProvider(temp[1]));
           Accountaddress = web3.eth.accounts[0];
-          web3.eth,defaultAccount = Accountaddress;
+          web3.eth.defaultAccount = Accountaddress;
           break;
         case 'file':
             console.log('read from contract file');
