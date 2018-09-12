@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/bvivek777/DeploySmartContracts#readme",
   "dependencies": {
-    "solc": "^0.4.17",
+    "solc": "^0.4.24",
     "web3": "^0.18.4"
   }
 }
